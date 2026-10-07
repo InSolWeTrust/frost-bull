@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>$FROST — The Frost Bull</title>
+  <meta name="description" content="The Frost Bull is a community coin for people who stay cold under pressure and charge when it counts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,560&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #10140f;
+      --paper: #e7e1d4;
+      --ink: #171a14;
+      --dim: #5d6156;
+      --line: #cfc6b4;
+      --ice: #7f9e8a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--paper);
+      font-family: Newsreader, Georgia, serif;
+      font-size: 18px;
+      line-height: 1.45;
+    }
+    a { color: inherit; }
+    .page { max-width: 760px; margin: 0 auto; padding: 28px 22px 72px; }
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #b7b2a6;
+      border-bottom: 1px solid #2a3128;
+      padding-bottom: 14px;
+    }
+    .top a { text-decoration: none; border-bottom: 1px solid #7f9e8a; }
+    h1 {
+      font-weight: 560;
+      font-size: clamp(46px, 10vw, 78px);
+      line-height: 0.88;
+      letter-spacing: -0.03em;
+      margin: 34px 0 8px;
+    }
+    .sub {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 13px;
+      color: #b7b2a6;
+      margin: 0 0 28px;
+    }
+    .lede { font-size: 22px; max-width: 36rem; margin: 0 0 28px; }
+    .sheet {
+      background: var(--paper);
+      color: var(--ink);
+      padding: 22px 22px 8px;
+      border-radius: 2px;
+    }
+    .sheet h2 {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin: 0 0 14px;
+      color: var(--dim);
+    }
+    table { width: 100%; border-collapse: collapse; }
+    td {
+      padding: 11px 0;
+      border-top: 1px solid var(--line);
+      vertical-align: top;
+    }
+    td:first-child {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 12px;
+      color: var(--dim);
+      width: 34%;
+      padding-right: 12px;
+    }
+    .note {
+      margin: 22px 0 0;
+      font-size: 16px;
+      color: #c9c3b6;
+    }
+    .actions { display: flex; gap: 18px; margin-top: 18px; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; }
+    .actions a { color: #d7dece; }
+    footer {
+      margin-top: 36px;
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 11px;
+      color: #8d887c;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="top">
+      <span>The Frost Bull</span>
+      <a href="https://x.com/TheFrostBull" target="_blank" rel="noopener">@TheFrostBull</a>
+    </div>
+
+    <h1>The Frost Bull</h1>
+    <p class="sub">$FROST · community coin · not live yet</p>
+    <p class="lede">The Frost Bull is a community coin for people who stay cold under pressure and charge when it counts.</p>
+
+    <div class="sheet">
+      <h2>Details</h2>
+      <table>
+        <tr>
+          <td>Name</td>
+          <td>The Frost Bull Ansem</td>
+        </tr>
+        <tr>
+          <td>Ticker</td>
+          <td>$FROST</td>
+        </tr>
+        <tr>
+          <td>X</td>
+          <td><a href="https://x.com/TheFrostBull">x.com/TheFrostBull</a></td>
+        </tr>
+        <tr>
+          <td>Chain</td>
+          <td>Solana, once deployed. Cheap to move, and the meme-coin crowd is already there. Base works if you would rather stay on Ethereum.</td>
+        </tr>
+        <tr>
+          <td>Contract</td>
+          <td>None yet. Deploy from your own wallet, then the address goes here. There is already a different coin called $ANSEM, so this one stays $FROST.</td>
+        </tr>
+        <tr>
+          <td>Supply</td>
+          <td>Set at deploy. Fixed is easier to explain than a mint button.</td>
+        </tr>
+      </table>
+    </div>
+
+    <p class="note">This page is the public face. The coin itself has to be created from a wallet you control. Seed phrase stays on paper. Nobody else needs it, including whoever built this page.</p>
+    <div class="actions">
+      <a href="https://x.com/TheFrostBull" target="_blank" rel="noopener">X account</a>
+      <a href="https://pump.fun" target="_blank" rel="noopener">Solana launcher</a>
+    </div>
+
+    <footer>
+      Not financial advice. Not affiliated with any other Ansem account or bull token.<br />
+      Contract address gets added after you deploy.
+    </footer>
+  </div>
+</body>
+</html>
